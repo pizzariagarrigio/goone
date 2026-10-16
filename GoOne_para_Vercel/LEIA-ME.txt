@@ -1,0 +1,25 @@
+GOONE — PUBLICAR NA VERCEL
+
+Este pacote contém a versão atual do site GoOne. Não contém arquivos internos do ChatGPT Sites.
+
+OPÇÃO 1 — GitHub + Vercel (recomendada para atualizações futuras)
+1. Extraia este arquivo ZIP.
+2. Crie um repositório no GitHub e coloque nele a pasta public inteira, mantendo index.html, styles.css e assets dentro dela.
+3. Entre em vercel.com e faça login.
+4. Clique em Add New > Project, conecte o GitHub e selecione o repositório.
+5. Em Framework Preset, escolha Other. Deixe Build Command em branco. Use public como Output Directory (ou deixe o padrão se a Vercel já detectá-la).
+6. Clique em Deploy. A Vercel fornecerá um endereço terminado em .vercel.app.
+7. Abra o endereço e confira as imagens, as animações, o WhatsApp e o Instagram.
+
+OPÇÃO 2 — Linha de comando, sem GitHub
+1. Extraia o ZIP e abra um terminal na pasta que contém a pasta public.
+2. Instale o Node.js caso ainda não esteja instalado.
+3. Execute: npx vercel
+4. Siga o login e escolha um projeto novo. Se for solicitado, use Other, sem Build Command, e Output Directory public.
+5. Para colocar essa versão em produção, execute: npx vercel --prod
+
+DOMÍNIO
+O endereço gratuito da Vercel termina em .vercel.app. Para usar somente a marca, como goone.com.br, registre ou use um domínio seu e adicione-o em Project Settings > Domains na Vercel.
+
+IMPORTANTE
+Depois da migração, alterações feitas no site hospedado no ChatGPT Sites não atualizam a Vercel automaticamente. Guarde este pacote e publique novas versões na Vercel quando o site mudar.
