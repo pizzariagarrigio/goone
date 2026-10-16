@@ -27,3 +27,10 @@
 @keyframes led-flow{from{background-position:100% 0}to{background-position:-100% 0}}@keyframes halo-breathe{0%,100%{opacity:.6;transform:scale(1)}50%{opacity:1;transform:scale(1.055)}}@keyframes glow-breathe{0%,100%{opacity:.5;transform:scale(.92)}50%{opacity:.9;transform:scale(1.08)}}@keyframes visual-float{0%,100%{transform:rotate(1deg) translateY(0)}50%{transform:rotate(.2deg) translateY(-8px)}}@keyframes tag-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}@keyframes letter-wave{0%,14%,45%,100%{transform:translateY(0)}24%{transform:translateY(-.09em)}}@keyframes button-led{0%,100%{box-shadow:0 0 0 1px #20dcd67a,0 0 15px #04cbe059,0 10px 25px #0786cb48}50%{box-shadow:0 0 0 2px #20dcd6b0,0 0 28px #04cbe095,0 10px 30px #0786cb52}}@keyframes button-sweep{0%,22%{left:-45%}50%,100%{left:140%}}@keyframes gradient-drift{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
 @media(max-width:650px){.process-side{margin-top:20px}.process-meter{margin-top:18px}.meter-number{font-size:2.9rem}}
 @media(prefers-reduced-motion:reduce){.topbar:after,.hero:before,.hero:after,.visual-glow,.hero-visual>img,.float-tag,.kinetic-word .glyph,.button-primary,.button-primary:after,.statement,.contact .orb-one,.contact .orb-two{animation:none!important}.hero-visual>img{transform:rotate(1deg)}.service-card,.service-card .card-icon,.button{transition:none!important}html{scroll-behavior:auto}}
+
+/* Ícones dos canais de contato. */
+.contact-actions .button-light,.contact-actions .contact-instagram{display:inline-flex;align-items:center;gap:10px}
+.contact-actions .social-icon{width:27px;height:27px;display:inline-grid;place-items:center;flex:none;border-radius:50%;color:#fff}
+.contact-actions .social-icon svg{display:block;width:16px;height:16px;fill:currentColor}
+.contact-actions .whatsapp-icon{background:#25d366}
+.contact-actions .instagram-icon{background:linear-gradient(45deg,#feda75 0%,#fa7e1e 22%,#d62976 52%,#962fbf 75%,#4f5bd5 100%)}
